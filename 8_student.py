@@ -6,8 +6,7 @@ student = {
 }
 
 student["State"] = "NJ"
-
 student["age"] += 1
 
-for key, value in student.items():
-    print(f"{key}: {value}")
+for k, v in student():
+    print(f"{k}: {v}")

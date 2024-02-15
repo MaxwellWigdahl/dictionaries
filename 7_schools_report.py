@@ -35,7 +35,7 @@ for school in list_of_schools:
             if women_graduation is not None:
                 if int(women_graduation) > 50:
                     print(f"University: {school['instnm']}")
-                    print(f"Graduation Rate for Women: {women_graduation}")
+                    print(f"Graduation Rate for Women: {women_graduation} %")
                     print()
 
 for school in list_of_schools:
